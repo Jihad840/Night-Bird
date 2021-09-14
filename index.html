@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Night Bird</title>
+  <link rel="stylesheet" href="font-family/Digital-Serial-Bold.ttf">
+  <link rel="stylesheet" href="font-family/Digital-Serial-Regular.ttf">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+  <link rel="stylesheet" href="css/jquery-luna.css">
+  <link rel="stylesheet" href="css/venobox.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bar-ui.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- ======================================================
+                    Menu Part Start
+===========================================================-->
+  <nav class="navbar navbar-expand-lg py-0 main_menu">
+    <div class="container px-lg-0">
+      <a class="navbar-brand py-0" href="#"><img src="images/Logo.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Membership</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ======================================================
+                    Menu Part End
+===========================================================-->
+
+  <!-- ======================================================
+                    Banner Part Start
+===========================================================-->
+  <section id="banner">
+    <div class="banner_item" style="background: url(images/Banner1.jpg) no-repeat center; background-size: cover;">
+      <div class="container px-lg-0">
+        <div class="row">
+          <div class="col-lg-6 m-auto text-center">
+            <div class="banner_text">
+              <h1>Night <span>Bird</span></h1>
+              <h2>Template for Night Club</h2>
+              <p>Anyone can join in our club. Just come to our office and fill up a form for membership. 1 year
+                membership is totally free for everyone. So, no get late, Hurry up and come to our office for joining
+                our club.</p>
+              <a href="#">Join Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="sm2-bar-ui full-width abcd">
+          <div class="bd sm2-main-controls">
+            <div class="sm2-inline-texture"></div>
+            <div class="sm2-inline-gradient"></div>
+            <div class="sm2-inline-element sm2-button-element">
+              <div class="sm2-button-bd">
+                <a href="#play" class="sm2-inline-button sm2-icon-play-pause">Play / pause</a>
+              </div>
+            </div>
+            <div class="sm2-inline-element sm2-inline-status">
+              <div class="sm2-playlist">
+                <div class="sm2-playlist-target">
+                  <noscript>
+                    <p>JavaScript is required.</p>
+                  </noscript>
+                </div>
+              </div>
+              <div class="sm2-progress">
+                <div class="sm2-row">
+                  <div class="sm2-inline-time">0:00</div>
+                  <div class="sm2-progress-bd">
+                    <div class="sm2-progress-track">
+                      <div class="sm2-progress-bar"></div>
+                      <div class="sm2-progress-ball">
+                        <div class="icon-overlay"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sm2-inline-duration">0:00</div>
+                </div>
+              </div>
+            </div>
+            <div class="sm2-inline-element sm2-button-element sm2-volume">
+              <div class="sm2-button-bd">
+                <span class="sm2-inline-button sm2-volume-control volume-shade"></span>
+                <a href="#volume" class="sm2-inline-button sm2-volume-control">volume</a>
+              </div>
+            </div>
+            <div class="sm2-inline-element sm2-button-element">
+              <div class="sm2-button-bd">
+                <a href="#prev" title="Previous" class="sm2-inline-button sm2-icon-previous">&lt; previous</a>
+              </div>
+            </div>
+            <div class="sm2-inline-element sm2-button-element">
+              <div class="sm2-button-bd">
+                <a href="#next" title="Next" class="sm2-inline-button sm2-icon-next">&gt; next</a>
+              </div>
+            </div>
+            <div class="sm2-inline-element sm2-button-element">
+              <div class="sm2-button-bd">
+                <a href="#repeat" title="Repeat playlist" class="sm2-inline-button sm2-icon-repeat">&infin; repeat</a>
+              </div>
+            </div>
+            <div class="sm2-inline-element sm2-button-element sm2-menu">
+              <div class="sm2-button-bd">
+                <a href="#menu" class="sm2-inline-button sm2-icon-menu">menu</a>
+              </div>
+            </div>
+          </div>
+          <div class="bd sm2-playlist-drawer sm2-element">
+            <div class="sm2-inline-texture">
+              <div class="sm2-box-shadow"></div>
+            </div>
+            <div class="sm2-playlist-wrapper">
+              <ul class="sm2-playlist-bd">
+                <li>
+                  <div class="sm2-row">
+                    <div class="sm2-col sm2-wide">
+                      <a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20LA%20%28Prod%20Chin%20Injetti%29.mp3"><b>SonReal</b>
+                        - LA<span class="label">Explicit</span></a>
+                    </div>
+                    <div class="sm2-col">
+                      <a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20LA%20%28Prod%20Chin%20Injetti%29.mp3"
+                        target="_blank" title="Download &quot;LA&quot;" class="sm2-icon sm2-music sm2-exclude">Download this
+                        track</a>
+                    </div>
+                  </div>
+                </li>
+                <li><a
+                    href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20Let%20Me%20%28Prod%202oolman%29.mp3"><b>SonReal</b>
+                    - Let Me <span class="label">Explicit</span></a></li>
+                <li><a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20People%20Asking.mp3"><b>SonReal</b> -
+                    People Asking <span class="label">Explicit</span></a></li>
+                <li><a
+                    href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20Already%20There%20Remix%20ft.%20Rich%20Kidd%2C%20Saukrates.mp3"><b>SonReal</b>
+                    - Already There Remix ft. Rich Kidd, Saukrates <span class="label">Explicit</span></a></li>
+                <li><a href="http://freshly-ground.com/data/audio/sm2/The%20Fugitives%20-%20Graffiti%20Sex.mp3"><b>The
+                      Fugitives</b> - Graffiti Sex</a></li>
+                <li><a href="http://freshly-ground.com/data/audio/sm2/Adrian%20Glynn%20-%20Seven%20Or%20Eight%20Days.mp3"><b>Adrian
+                      Glynn</b> - Seven Or Eight Days</a></li>
+                <li><a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20I%20Tried.mp3"><b>SonReal</b> - I
+                    Tried</a></li>
+                <li><a href="http://freshly-ground.com/data/audio/mpc/20060826%20-%20Armstrong.mp3">Armstrong Beat</a></li>
+                <li><a href="http://freshly-ground.com/data/audio/mpc/20090119%20-%20Untitled%20Groove.mp3">Untitled
+                    Groove</a></li>
+                <li><a href="http://freshly-ground.com/data/audio/sm2/birds-in-kauai-128kbps-aac-lc.mp4">Birds In Kaua'i
+                    (AAC)</a></li>
+                <li><a href="http://freshly-ground.com/data/audio/sm2/20130320%20-%20Po%27ipu%20Beach%20Waves.ogg">Po'ipu
+                    Beach Waves (OGG)</a></li>
+                <li><a href="http://freshly-ground.com/data/audio/sm2/bottle-pop.wav">A corked beer bottle (WAV)</a></li>
+                <li><a href="../../demo/_mp3/rain.mp3">Rain</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======================================================
+                    Banner Part End
+===========================================================-->
+
+  <!-- ======================================================
+                    About Part Start
+===========================================================-->
+<section id="about_part">
+  <div class="container px-lg-0">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="about_img">
+          <img src="images/about_img1.jpg" class="img-fluid w-100" alt="about_img1">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="about_text text-center">
+          <h2>About Night Bird</h2>
+          <div class="keyframe">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+            <div class="six"></div>
+            <div class="seven"></div>
+            <div class="eight"></div>
+          </div>
+          <p>Night Bird id a night club. It opens twenty four seven. So, everyone can join our night club. Just come to our office and fill up a form for membership. 1 year membership is totally free for everyone. So, Don’t get late, Hurry up and come to our office for joining our club.
+
+            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when. So, we hope you’ll join our Night Club.</span></p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="about_img">
+          <img src="images/about_img2.jpg" class="img-fluid w-100" alt="about_img2">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- ======================================================
+                    About Part End
+===========================================================-->
+
+  <!-- ======================================================
+                    Picture Part Start
+===========================================================-->
+<section id="picture_head" style="background: url(images/picture.jpg) no-repeat center; background-size: cover;">
+  <div class="container px-lg-0">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="common_head">
+          <h2>Night Bird’s Gallery</h2>
+          <div class="keyframe">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+            <div class="six"></div>
+            <div class="seven"></div>
+            <div class="eight"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 text-center">
+        <div class="img_part">
+          <img src="images/pic_img1.jpg" class="img-fluid w-100" alt="pic_img1">
+          <div class="overly">
+            <ul>
+              <li><a href="#" ><i class="fas fa-link"></i></a></li>
+              <li><a class="venobox" data-gall="myGallery" href="images/pic_img1.jpg"><i class="fas fa-search-plus"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 text-center">
+        <div class="img_part">
+          <img src="images/pic_img2.jpg" class="img-fluid w-100" alt="pic_img2">
+          <div class="overly">
+            <ul>
+              <li><a href="#"><i class="fas fa-link"></i></a></li>
+              <li><a class="venobox" data-gall="myGallery" href="images/pic_img2.jpg"><i class="fas fa-search-plus"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 text-center">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="img_part img_3">
+              <img src="images/pic_img3.jpg" class="img-fluid w-100" alt="pic_img3">
+              <div class="overly">
+                <ul>
+                  <li><a href="#"><i class="fas fa-link"></i></a></li>
+                  <li><a class="venobox" data-gall="myGallery" href="images/pic_img3.jpg"><i class="fas fa-search-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="img_part">
+              <img src="images/pic_img4.jpg" class="img-fluid w-100" alt="pic_img4">
+              <div class="overly">
+                <ul>
+                  <li><a href="#"><i class="fas fa-link"></i></a></li>
+                  <li><a class="venobox" data-gall="myGallery" href="images/pic_img4.jpg"><i class="fas fa-search-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- ======================================================
+                    Picture Part End
+===========================================================-->
+
+  <!-- ======================================================
+                    DJ Part Start
+===========================================================-->
+<section id="dj_part">
+  <div class="container px-lg-0">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="common_head">
+          <h2>Night Bird’s DJ’s</h2>
+          <img src="images/common_line.png" alt="common_line">
+        </div>
+      </div>
+    </div>
+    <div class="row dj_slider">
+      <div class="col text-center">
+        <div class="dj_img">
+          <img src="images/dj_img1.jpg" class="img-fluid w-100"  alt="dj_img1">
+          <div class="overly">
+            <ul>
+              <li><a href="#"><i class="fas fa-link"></i></a></li>
+              <li><a class="venobox" data-gall="myGallery" href="images/dj_img1.jpg"><i class="fas fa-search-plus"></i></a></li>
+            </ul>
+            <div class="dj_text text-center">
+              <h3>Sakeba Irin Anney</h3>
+              <p>Female DJ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="dj_img">
+          <img src="images/dj_img2..jpg" class="img-fluid w-100"  alt="dj_img2">
+          <div class="overly">
+            <ul>
+              <li><a href="#"><i class="fas fa-link"></i></a></li>
+              <li><a class="venobox" data-gall="myGallery" href="images/dj_img2..jpg"><i class="fas fa-search-plus"></i></a></li>
+            </ul>
+            <div class="dj_text text-center">
+              <h3>Sakeba Irin Anney</h3>
+              <p>Female DJ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="dj_img">
+          <img src="images/dj_img3.jpg" class="img-fluid w-100"  alt="dj_img3">
+          <div class="overly">
+            <ul>
+              <li><a href="#"><i class="fas fa-link"></i></a></li>
+              <li><a class="venobox" data-gall="myGallery" href="images/dj_img3.jpg"><i class="fas fa-search-plus"></i></a></li>
+            </ul>
+            <div class="dj_text text-center">
+              <h3>Sakeba Irin Anney</h3>
+              <p>Female DJ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="dj_img">
+          <img src="images/dj_img4.jpg" class="img-fluid w-100"  alt="dj_img4">
+          <div class="overly">
+            <ul>
+              <li><a href="#"><i class="fas fa-link"></i></a></li>
+              <li><a class="venobox" data-gall="myGallery" href="images/dj_img4.jpg"><i class="fas fa-search-plus"></i></a></li>
+            </ul>
+            <div class="dj_text text-center">
+              <h3>Sakeba Irin Anney</h3>
+              <p>Female DJ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="dj_img">
+          <img src="images/dj_img5.jpg" class="img-fluid w-100"  alt="dj_img5">
+          <div class="overly">
+            <ul>
+              <li><a href="#"><i class="fas fa-link"></i></a></li>
+              <li><a class="venobox" data-gall="myGallery" href="images/dj_img5.jpg"><i class="fas fa-search-plus"></i></a></li>
+            </ul>
+            <div class="dj_text text-center">
+              <h3>Sakeba Irin Anney</h3>
+              <p>Female DJ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center">
+        <div class="dj_img">
+          <img src="images/dj_img5.jpg" class="img-fluid w-100"  alt="dj_img5">
+          <div class="overly">
+            <ul>
+              <li><a href="#"><i class="fas fa-link"></i></a></li>
+              <li><a class="venobox" data-gall="myGallery" href="images/dj_img5.jpg"><i class="fas fa-search-plus"></i></a></li>
+            </ul>
+            <div class="dj_text text-center">
+              <h3>Sakeba Irin Anney</h3>
+              <p>Female DJ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- ======================================================
+                    DJ Part End
+===========================================================-->
+
+  <!-- ======================================================
+                    Event Part Start
+===========================================================-->
+<section id="event_part">
+  <div class="common_head text-center">
+    <h2>Upcoming Event’s</h2>
+    <img src="images/common_line.png" alt="common_line">
+  </div>
+  <div class="event" style="background: url(images/event.jpg) no-repeat center; background-size: cover;">
+    <div class="container px-lg-0 event_slider">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="event_first">
+            <img src="images/event_img.jpg" class="img-fluid w-100" alt="img">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="event_text">
+            <h3>Refresh your mind with NIGHT BIRD
+              <span>@ 26 October 2017</span>
+            </h3>
+            <p>Our next event will be held on next twentu six September 2017. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the induy's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <h5>$ 210.00     Start at: 09:00 p.m.</h5>
+            <ul class="timer_row d-flex f-digital">
+              <li class="timer_day"></li>
+              <li class="timer_hours"></li>
+              <li class="timer_min"></li>
+              <li class="timer_scnd"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="event_first">
+            <img src="images/event_img.jpg" class="img-fluid w-100" alt="img">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="event_text">
+            <h3>Refresh your mind with NIGHT BIRD
+              <span>@ 26 October 2017</span>
+            </h3>
+            <p>Our next event will be held on next twentu six September 2017. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the induy's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <h5>$ 210.00     Start at: 09:00 p.m.</h5>
+            <ul class="timer_row d-flex f-digital">
+              <li class="timer_day"></li>
+              <li class="timer_hours"></li>
+              <li class="timer_min"></li>
+              <li class="timer_scnd"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- ======================================================
+                    Event Part End
+===========================================================-->
+
+  <!-- ======================================================
+                    Blog Part Start
+===========================================================-->
+<section id="blog_part">
+  <div class="container px-lg-0">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="common_head">
+          <h2>Night Bird’s Blog</h2>
+          <img src="images/common_line.png" alt="common_line">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="blog_col text-center">
+          <div class="blog_pic">
+            <img src="images/blog_img1.jpg" class="img-fluid w-100" alt="blog_img1">
+            <div class="overly">
+              <ul>
+                <li><a href="#" ><i class="fas fa-link"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="blog_text">
+            <h3>We Will come Next Year Obviously</h3>
+            <h6><i class="fas fa-user"></i> By Admin</h6>
+            <p>Lorem Ipsum is simply dummy text of thenting  and typng industry. Lorem Ipsum has beenry's staardummy text ever since the 1500s, when symphony after before book.</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="blog_col text-center">
+          <div class="blog_pic">
+            <img src="images/blog_img2.jpg" class="img-fluid w-100" alt="blog_img2">
+            <div class="overly">
+              <ul>
+                <li><a href="#" ><i class="fas fa-link"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="blog_text">
+            <h3>We Will come Next Year Obviously</h3>
+            <h6><i class="fas fa-user"></i> By Admin</h6>
+            <p>Lorem Ipsum is simply dummy text of thenting  and typng industry. Lorem Ipsum has beenry's staardummy text ever since the 1500s, when symphony after before book.</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="blog_col text-center">
+          <div class="blog_pic">
+            <img src="images/blog_img3.jpg" class="img-fluid w-100" alt="blog_img3">
+            <div class="overly">
+              <ul>
+                <li><a href="#" ><i class="fas fa-link"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="blog_text">
+            <h3>We Will come Next Year Obviously</h3>
+            <h6><i class="fas fa-user"></i> By Admin</h6>
+            <p>Lorem Ipsum is simply dummy text of thenting  and typng industry. Lorem Ipsum has beenry's staardummy text ever since the 1500s, when symphony after before book.</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- ======================================================
+                    Blog Part End
+===========================================================-->
+
+  <!-- ======================================================
+                    Testimonial Part Start
+===========================================================-->
+<section id="testimonial_part">
+  <div class="common_head text-center">
+    <h2>Night Bird’s Testimonial</h2>
+    <img src="images/common_line.png" alt="common_line">
+  </div>
+  <div class="test_main" style="background: url(images/Test_main.jpg) no-repeat center; background-size: cover;">
+    <div class="container px-lg-0">
+      <div class="row test_slider">
+        <div class="col-lg-6">
+          <div class="test_col">
+            <div class="row">
+              <div class="col-lg-2">
+                <div class="test_pic">
+                  <img src="images/test_img1.png" class="img-fluid w-100" alt="test_img1">
+                </div>
+              </div>
+              <div class="col-lg-10">
+                <div class="team_text">
+                  <h3>ABS Uzzal</h3>
+                  <h5>CEO & Founder</h5>
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                  <p>Lorem Ipsum is simply dummy text of the printing and rem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="test_col">
+            <div class="row">
+              <div class="col-lg-2">
+                <div class="test_pic">
+                  <img src="images/test_img2.png" class="img-fluid w-100" alt="test_img2">
+                </div>
+              </div>
+              <div class="col-lg-10">
+                <div class="team_text">
+                  <h3>Shahin Alom</h3>
+                  <h5>Chairman</h5>
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star-half"></i></li>
+                  </ul>
+                  <p>Lorem Ipsum is simply dummy text of the printing and rem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="test_col">
+            <div class="row">
+              <div class="col-lg-2">
+                <div class="test_pic">
+                  <img src="images/test_img2.png" class="img-fluid w-100" alt="test_img2">
+                </div>
+              </div>
+              <div class="col-lg-10">
+                <div class="team_text">
+                  <h3>Shahin Alom</h3>
+                  <h5>Chairman</h5>
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star-half"></i></li>
+                  </ul>
+                  <p>Lorem Ipsum is simply dummy text of the printing and rem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- ======================================================
+                    Testimonial Part End
+===========================================================-->
+
+  <!-- ======================================================
+                    Membership Part Start
+===========================================================-->
+<section id="member_part">
+  <div class="common_head text-center">
+    <h2>Membership Plan</h2>
+    <img src="images/common_line.png" alt="common_line">
+  </div>
+  <div class="member_main">
+    <div class="container px-lg-0">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="member_col text-center">
+            <div class="member_text">
+              <h3>General</h3>
+              <h4>$ 79/ <span>mo</span></h4>
+              <ul>
+                <li><p>Entry Fee Less</p></li>
+                <li><p>Free Tequila</p></li>
+                <li><p>Party with International DJ’s</p></li>
+                <li><p>Get big Dance floor</p></li>
+                <li><p>X</p></li>
+                <li><p>X</p></li>
+              </ul>
+              <a href="#">Join Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="member_col text-center">
+            <div class="member_text">
+              <h3>Premium</h3>
+              <h4>$ 89/ <span>mo</span></h4>
+              <ul>
+                <li><p>Entry Fee Less</p></li>
+                <li><p>Free Tequila</p></li>
+                <li><p>Party with International DJ’s</p></li>
+                <li><p>Get big Dance floor</p></li>
+                <li><p>Meetup with Celebraties</p></li>
+                <li><p>X</p></li>
+              </ul>
+              <a href="#">Join Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="member_col text-center">
+            <div class="member_text">
+              <h3>Exclusive</h3>
+              <h4>$ 99/ <span>mo</span></h4>
+              <ul>
+                <li><p>Entry Fee Less</p></li>
+                <li><p>Free Tequila</p></li>
+                <li><p>Party with International DJ’s</p></li>
+                <li><p>Get big Dance floor</p></li>
+                <li><p>Meetup with Celebraties</p></li>
+                <li><p>Free every liquir</p></li>
+              </ul>
+              <a href="#">Join Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- ======================================================
+                    Membership Part End
+===========================================================-->
+
+  <!-- ======================================================
+                    Footer Part Start
+===========================================================-->
+<footer id="footer_part" style="background: url(images/footer_main.jpg) no-repeat center; background-size: cover;">
+  <div class="footer_main">
+    <div class="container px-lg-0">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="footer_first">
+            <a href="#"><img src="images/footer_logo.png" class="img-fluid w-100" alt="footer_logo"></a>
+            <h3>It’s a night club. Anyone can join in our th club. If you interested to join our club.</h3>
+            <div class="contact">
+              <div class="line">
+                <div class="icon">
+                  <a href="#"><i class="fas fa-phone-alt"></i></a>
+                </div>
+                <p>+880 1234 5678 <span>+880 1234 5678</span></p>
+              </div>
+              <div class="line">
+                <div class="icon">
+                  <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p>nightbird@admin.com <span>admin@nightbird.com</span></p>
+              </div>
+              <div class="line">
+                <div class="icon">
+                  <a href="#"><i class="fas fa-globe-americas"></i></a>
+                </div>
+                <p>www.nightbird.com <span>www.nightbirdbd.com</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="twitter_part">
+            <div class="common_part">
+              <h2>Twitter Feed</h2>
+            </div>
+            <div class="twitter_text">
+              <p><a href="#"><i class="fab fa-twitter"></i></a>This is a very much exclusive Night Club. That’s known as NIGHT BIRD. I am really very proud to be the part of the Night Bird.
+                <span>26 October 2017.</span></p>
+              <p><a href="#"><i class="fab fa-twitter"></i></a>This is a very much exclusive Night Club. That’s known as NIGHT BIRD. I am really very proud to be the part of the Night Bird.
+                <span>26 October 2017.</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="picture_part">
+            <div class="common_part">
+              <h2>Instagram Photos</h2>
+            </div>
+            <div class="picture_pic">
+              <ul>
+                <li><img src="images/pic1.png" alt="pic1"></li>
+                <li><img src="images/pic2.png" alt="pic2"></li>
+                <li><img src="images/pic3.png" alt="pic3"></li>
+                <li><img src="images/pic4.png" alt="pic4"></li>
+                <li><img src="images/pic5.png" alt="pic5"></li>
+                <li><img src="images/pic6.png" alt="pic6"></li>
+                <li><img src="images/pic7.png" alt="pic7"></li>
+                <li><img src="images/pic8.png" alt="pic8"></li>
+                <li><img src="images/pic9.png" alt="pic9"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="socail_part">
+            <div class="common_part">
+              <h2>Sign Up for Newsletter</h2>
+            </div>
+            <div class="form_part">
+              <input type="text" placeholder="Your Name">
+              <input type="email" placeholder="Your E-mail">
+              <button type="submit">Submit</button>
+            </div>
+            <div class="socail_icon">
+              <h3>Get Social</h3>
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-amazon"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer_last">
+    <div class="last_text text-center">
+      <p>Copyright &copy; 2017. All right reserved by <span>NIGHT BIRD</span></p>
+    </div>
+  </div>
+</footer>
+  <!-- ======================================================
+                    Footer Part End
+===========================================================-->
+  <!-- ======================================================
+                    Menu Part Start
+===========================================================-->
+
+  <!-- ======================================================
+                    Menu Part End
+===========================================================-->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jquery-luna.js"></script>
+  <script src="js/venobox.min.js"></script>
+  <script src="js/soundmanager2-jsmin.js"></script>
+  <script src="js/bar-ui.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.syotimer.min.js"></script>
+  <script src="js/jquery.syotimer.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
